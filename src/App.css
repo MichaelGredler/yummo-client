@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+  background: #f5f8ff !important;
+}
+
+.main-hr {
+  color: rgb(40, 40, 112);
+  opacity: 1;
+  height: 2px !important;
+  margin: 1rem 0 3rem !important;
+}
+
+/* 2 Columns */
+
+.two-column-section {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 3rem 0; */
+}
+
+.two-column-section .column-1 {
+  flex: 1 50%;
+  padding-right: 3rem;
+  /* background: red; */
+}
+
+.two-column-section .column-2 {
+  flex: 1 50%;
+}
+
+.two-column-section .column-1 .container {
+  padding: 0;
+}
+
+.two-column-section h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 0.75em;
+}
+
+.two-column-section h4 span {
+  font-size: 2rem;
+  margin-right: 0.4em;
+  color: rgb(80, 40, 112);
+}
+
+.two-column-section.search-bar {
+  border: solid 2px rgb(80, 40, 112);
+  border-radius: 7px;
+  padding: 3rem 3rem 3rem;
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+}
+
+/* ---------------------- Navbar */
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-left .nav-link {
+  margin: 0 2rem;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+
+.profile-dropdown .dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-item .logout-btn {
+  padding: 0;
+  background: none;
+  border: none;
+  color: #212529;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  text-align: left;
+}
+
+.dropdown-item .logout-btn:hover {
+  padding: 0;
+  background: none;
+  border: none;
+  color: #212529;
+}
+
+/* ----------------------- Buttons */
+
+.main-btn.btn.btn-primary {
+  color: #ffffff;
+  font-weight: 600;
+  background: linear-gradient(
+    14deg,
+    rgb(40, 40, 112) 0%,
+    rgb(80, 40, 112) 100%
+  );
+  border: solid 1px rgb(80, 40, 112);
+  /* padding: 0.25rem 0.75rem 0.25rem 0.4rem; */
+  width: 100%;
+  border-radius: 4px;
+  transition: all 0.6s ease;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.main-btn.btn.btn-primary:hover {
+  color: #ffffff;
+  background: linear-gradient(14deg, rgb(20, 20, 80) 0%, rgb(60, 20, 90) 100%);
+  border: solid 1px rgb(80, 40, 112);
+  /* padding: 0.25rem 0.75rem 0.25rem 0.4rem; */
+  width: 100%;
+  border-radius: 4px;
+  transition: all 0.6s ease;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.nav-btns.btn.btn-primary {
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  margin-left: 1.5rem;
+  /* padding: 0.25rem 1.5rem; */
+  width: 110px;
+  border-radius: 100px;
+  transition: all 0.6s ease;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.nav-btns.btn.btn-primary:hover {
+  background-color: #ffffff;
+  border: solid 1px #ffffff;
+  color: #1a1a1a;
+  /* margin-left: 1.5rem; */
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+
+.plus-icon-btn.btn.btn-primary {
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  padding: 0.25rem 0.75rem 0.25rem 0.4rem;
+  width: 170px;
+  border-radius: 4px;
+  transition: all 0.6s ease;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  /* font-size: 1rem; */
+}
+
+.plus-icon-btn.btn.btn-primary:hover {
+  background-color: #ffffff;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+  color: rgb(80, 40, 112);
+}
+
+.plus-icon-btn span {
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
+  line-height: 1em;
+}
+
+.card .tag-btn {
+  border: solid 1px rgb(110, 50, 120);
+  color: rgb(80, 40, 112);
+  margin: 0 0.25rem;
+  transition: all 0.6s ease;
+}
+
+.card .tag-btn:hover {
+  background-color: rgb(110, 50, 120);
+  transition: all 0.2s ease;
+  color: #ffffff;
+  border: solid 1px rgb(110, 50, 120);
+}
+
+.tag-btn:first-child {
+  margin-left: 0;
+}
+
+.recipe-tags {
+  margin: 1rem auto 1.25rem;
+}
+
+.like-div .like-btn {
+  width: 65px;
+  background: rgb(110, 50, 120);
+  border: solid 1px rgb(110, 50, 120);
+}
+
+.like-div .like-btn:hover {
+  background: rgb(80, 20, 90);
+  border: solid 1px rgb(80, 20, 90) !important;
+}
+
+/* --------------------- Logo */
+
+.yummo-logo {
+  width: 280px;
+  margin-right: 2rem;
+}
+
+.welcome-user {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* -------------------- Single Recipe Page */
+
+.recipe-title-div h1 {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* font-weight: 700; */
+  /* font-size: 4rem; */
+}
+
+.form-control {
+  border: 1px solid rgb(80, 40, 112) !important;
+}
+
+.like-div {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  align-items: center;
+  max-width: 150px;
+  flex-wrap: wrap;
+}
+
+.like-div h5 {
+  margin: auto 1rem auto 0.25rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 400;
+  /* text-transform: uppercase; */
+  font-size: 1.25rem;
+}
+
+.recipe-title {
+  /* background: green; */
+  /* display: inline-block; */
+  /* float: left; */
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+hr {
+  margin: 1.5rem 0;
+  height: 1px !important;
+  /* background-color: rgb(180, 180, 180); */
+  opacity: 0.5;
+}
+
+.recipe-two-cols {
+  display: flex;
+  padding: 5rem 0;
+}
+
+.recipe-two-cols .column-1 {
+  width: 50%;
+}
+
+.recipe-two-cols .column-2 {
+  width: 50%;
+  padding: 0 0 0 3rem;
+}
+
+.recipe-hero {
+  width: 100%;
+}
+
+/* ----- Popper Tooltip ----- */
+
+#tooltip {
+  display: inline-block;
+  background: #3d3d3d;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+#arrow,
+#arrow::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: inherit;
+}
+
+#arrow {
+  visibility: hidden;
+}
+
+#arrow::before {
+  visibility: visible;
+  content: "";
+  transform: rotate(45deg);
+}
+
+#tooltip[data-popper-placement^="top"] > #arrow {
+  bottom: -4px;
+}
+
+#tooltip[data-popper-placement^="bottom"] > #arrow {
+  top: -4px;
+}
+
+#tooltip[data-popper-placement^="left"] > #arrow {
+  right: -4px;
+}
+
+#tooltip[data-popper-placement^="right"] > #arrow {
+  left: -4px;
+}
+
+#tooltip {
+  /* display: none; */
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+#tooltip[data-show] {
+  /* display: block; */
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+.btn.like-login-btn {
+  opacity: 0;
+  /* display: none; */
+  transition: all 0.8s ease;
+  margin-left: 0;
+  color: #0d6efd;
+  background-color: #ffffff;
+  border-color: #0d6efd;
+}
+
+.btn.like-login-btn[data-show] {
+  opacity: 1;
+  /* display: block; */
+  transition: all 0.2s ease;
+  margin-top: 0.75rem;
+}
+
+.fancy-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(40, 40, 112);
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* ---------- Recipe Cards */
+
+.test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 !important;
+}
+
+.recipe-card {
+  flex: 0 1 31% !important;
+  margin-bottom: 2.5rem;
+  box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.15);
+}
+
+/* .row > * {
+  padding-right: calc(var(--bs-gutter-x) * 1) !important;
+  padding-left: calc(var(--bs-gutter-x) * 1) !important;
+}
+
+.col-lg-4.py-2 {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+} */
+
+.card {
+  height: 100%;
+}
+
+.card-title-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  margin: 0 !important;
+}
+
+.card-title h5 {
+  font-weight: 400;
+  margin: 0 !important;
+  font-size: 1.5rem;
+}
+
+.card .thumb-up {
+  font-size: 1.125rem;
+}
+
+.card .thumb-up span {
+  margin-right: 0.25rem;
+  line-height: 1em;
+}
+
+.card .card-text {
+  margin-bottom: 0.5rem;
+}
