@@ -1,5 +1,5 @@
 # yummo-client
- The front end for my recipe-finder app
+ The front end for my recipe-finder app.
 
 GETTING STARTED
 
